@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclass : Composer en PHP</title>
+    <!-- Ajout du lien vers Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- En-tête avec une barre de navigation et un titre -->
+    <header class="bg-danger text-white py-3">
+        <div class="container">
+            <h1 class="display-4 text-center">Masterclass : Composer et son rôle dans le développement PHP</h1>
+           
+    </header>
+
+    <!-- Contenu principal de la page -->
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="fw-bold">Plan</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#intro">Introduction</a></li>
+                    <li class="list-group-item"><a href="#definition">Définition</a></li>
+                    <li class="list-group-item"><a href="#role">Le rôle de Composer</a></li>
+                    <li class="list-group-item"><a href="#utilisation">Utilisation de Composer</a></li>
+                    <li class="list-group-item"><a href="#avantages">Avantages de Composer</a></li>
+                    <li class="list-group-item"><a href="#packagist">Packagist & Écosystème</a></li>
+                    <li class="list-group-item"><a href="#conclusion">Conclusion</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-9">
+                <section id="intro" class="mb-4">
+                    <h2>Introduction</h2>
+                    <p>Dans le développement PHP moderne, la gestion des dépendances est un défi majeur, notamment lorsque des bibliothèques tierces sont nécessaires pour enrichir un projet. Composer est un gestionnaire de dépendances puissant qui simplifie l'intégration de bibliothèques et outils externes dans un projet PHP.</p>
+                </section>
+
+                <section id="definition" class="mb-4">
+                    <h2>Définition de Composer</h2>
+                    <p>Composer est un gestionnaire de dépendances pour PHP. Il permet de déclarer et de gérer facilement les bibliothèques et outils externes nécessaires au bon fonctionnement d'un projet. En plus de cela, Composer prend en charge l'auto-chargement des classes PHP (autoloading), ce qui simplifie la gestion du code.</p>
+                </section>
+
+                <section id="role" class="mb-4">
+                    <h2>Le rôle de Composer</h2>
+                    <p>Le principal rôle de Composer dans un projet PHP est de gérer les dépendances externes. Composer permet d'installer, mettre à jour et gérer les bibliothèques externes nécessaires à un projet, tout en garantissant que les versions utilisées sont compatibles entre elles.</p>
+                </section>
+
+                <section id="utilisation" class="mb-4">
+                    <h2>Utilisation de Composer</h2>
+                    <p>Composer est utilisé principalement par la ligne de commande. Les développeurs déclarent leurs dépendances dans un fichier appelé <code>composer.json</code>, puis utilisent Composer pour installer et gérer ces bibliothèques. Composer se charge également de l'autoloading des classes PHP.</p>
+                </section>
+
+                <section id="avantages" class="mb-4">
+                    <h2>Avantages de Composer</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Facilite la gestion des dépendances externes</li>
+                        <li class="list-group-item">Permet de verrouiller les versions des bibliothèques pour éviter les conflits</li>
+                        <li class="list-group-item">Supporte l'autoloading automatique des classes PHP</li>
+                        <li class="list-group-item">Permet de mettre à jour les dépendances de manière simple et efficace</li>
+                        <li class="list-group-item">Offre une large communauté et un écosystème riche sur Packagist</li>
+                    </ul>
+                </section>
+
+                <!-- Ajout de la nouvelle section sur Packagist -->
+                <section id="packagist" class="mb-4">
+                    <h2>Packagist & Écosystème</h2>
+                    <p>Packagist est le dépôt central des paquets PHP utilisés avec Composer. C'est là que la plupart des bibliothèques PHP sont publiées et mises à disposition de la communauté. Composer facilite l'intégration de ces paquets dans vos projets, ce qui vous permet de bénéficier de l'énorme écosystème de bibliothèques PHP disponibles sur Packagist. Que ce soit pour des outils de développement, des bibliothèques de gestion des utilisateurs, ou des frameworks entiers, Composer vous permet d'intégrer rapidement ces ressources dans votre code.</p>
+                    <p>Publier votre propre bibliothèque sur Packagist est également un processus simple grâce à Composer, ce qui vous permet de contribuer facilement à l'écosystème open-source.</p>
+                </section>
+
+                <!-- Conclusion ajoutée -->
+                <section id="conclusion" class="mb-4">
+                    <h2>Conclusion</h2>
+                    <p>En conclusion, Composer est un outil indispensable pour le développement moderne en PHP. En facilitant la gestion des dépendances et l'automatisation de l'intégration des bibliothèques tierces, Composer permet de gagner du temps et de simplifier les tâches de maintenance dans les projets PHP. Avec l'écosystème Packagist, Composer ouvre un monde de possibilités pour les développeurs PHP, et sa flexibilité en fait un choix incontournable pour toute équipe de développement souhaitant travailler de manière plus efficace et cohérente.</p>
+                    <p>Que vous soyez un développeur débutant ou expérimenté, comprendre et maîtriser Composer vous permettra de créer des applications PHP plus robustes et mieux structurées.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="bg-danger text-white text-center py-3">
+        <p>&copy; Veille technologique Composer-Groupe E</p>
+    </footer>
+
+    <!-- Ajout du script Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

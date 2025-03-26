@@ -1,0 +1,106 @@
+/* Reset des marges et des bordures */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #cbcbd7;
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* En-tête */
+header {
+    background-color: #b5465c;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #b5465c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale */
+main {
+    padding-top: 50px;
+}
+
+/* Sections individuelles */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #b5465c;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Plan latéral */
+ul.list-group {
+    border-radius: 8px;
+}
+
+ul.list-group-item {
+    font-size: 1.1rem;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .col-md-3 {
+        display: none;
+    }
+
+    .col-md-9 {
+        width: 100%;
+    }
+}
